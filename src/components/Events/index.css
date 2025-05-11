@@ -1,0 +1,24 @@
+.events-bg-container {
+  display: flex;
+  align-items: flex-start;
+}
+.events-content {
+  width: 60%;
+  background-color: #3a4b63;
+}
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.event-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 15px;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  padding: 10px;
+}

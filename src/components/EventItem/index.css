@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.event-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 40%;
+  border: 0px none transparent;
+  margin: 10px;
+}
+
+.event-name {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.location {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.active-image {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+  height: 155px;
+  width: 215px;
+
+  margin: 5px;
+  padding: 10px;
+}
+.not-active {
+  height: 155px;
+  width: 215px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.event-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}

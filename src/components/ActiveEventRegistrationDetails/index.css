@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.active-registration-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+  background-color: white;
+}
+.no-active-event {
+  color: #0967d2;
+  font-family: 'Roboto';
+}
+.yet-to-register-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.yet-to-register {
+  height: 135px;
+  width: 100px;
+}
+.yet-to-register-description {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+.registrations-closed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registration-closed-img {
+  align-self: center;
+  height: 135px;
+  width: 100px;
+}
+.registrationclosedheading {
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+.registration-closed-description {
+  font-family: 'Roboto';
+  color: #323f4b;
+}
